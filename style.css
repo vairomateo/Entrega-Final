@@ -115,4 +115,17 @@ form .btn-dark:hover {
   animation: zoom-in 0.3s ease forwards;
 }
 
+.icono-red {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  filter: brightness(0) invert(1); /* deja los logos blancos si son oscuros */
+  transition: transform 0.3s ease;
+}
+
+.footer__link:hover .icono-red {
+  transform: scale(1.15);
+}
+
+
 /*# sourceMappingURL=style.css.map */
