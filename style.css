@@ -26,13 +26,22 @@ h1 {
   }
 }
 
-.producto img {
+.producto {
+  height: 100%; /* para que todas las cards midan igual */
+  display: flex;
+  flex-direction: column;
+}
+
+.producto__img {
   width: 100%;
-  height: auto;
+  aspect-ratio: 3 / 4; /* ajusta la proporción (3:4 o 4:5 según prefieras) */
+  object-fit: cover;
   border-radius: 0.5rem;
   transition: transform 0.3s ease;
 }
-.producto img:hover, .producto img:focus {
+
+.producto__img:hover,
+.producto__img:focus {
   transform: scale(1.05);
 }
 

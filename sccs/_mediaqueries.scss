@@ -4,3 +4,11 @@
         font-size: 1.8rem;
     }
 }
+
+@media (max-width: 768px) {
+    .hero-text {
+    font-size: 1.2rem;
+    text-align: center;
+    }
+}
+
