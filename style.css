@@ -27,7 +27,7 @@ h1 {
 }
 
 .producto {
-  height: 100%; /* para que todas las cards midan igual */
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
